@@ -1,0 +1,61 @@
+/*
+declaration block:
+
+selector
+    {
+        property: value;
+        property2: value;
+    }
+*/
+
+body
+{
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav
+{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer
+{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage
+{
+    position: absolute; /*will allow us to move image*/
+    margin-right: 200px;
+    width: 400px;
+    left: 0px;
+    top: 500px;
+}
+
+h1
+{
+text-align: center;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 10px 20px; /*short for 10 px top and bottom 20 px left and right*/
+    border-radius: 5px;
+    background-color: indigo;
+    display: inline;
+}
+
+nav ul li a:hover
+{
+    color: indigo;
+    background-color: whitesmoke;
+}

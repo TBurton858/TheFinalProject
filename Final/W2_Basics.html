@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W2_Basics</title>
+</head>
+<body>
+    <!--h1 is the page title, there should be 1 and only 1 h1 on a page-->
+    <h1>Welcome to my Week 2 JavaScript Basics Page</h1>
+
+    <!--subheadings for the 4 foundations of programming-->
+    <h2>Variables</h2>
+
+    <!--our JavaScript code goes in between opening and closing script tags-->
+    <script>
+        //single line JavaScript comment
+
+        /*
+        multi-line JavaScript comment
+        */
+       
+        //let us create a variable with a default value
+        //var means you want to create a variable
+        var firstName = "Thomas";
+        var lastName = "Burton";
+    </script>
+
+    <h2>Functions</h2>
+
+    <script>
+        //The function not called yet
+        function runCalc()
+        {
+        //Variables
+        var num1 = 0
+        var num2 = 0
+
+        //Variables is set equal to the number in the prompt
+        num1 = prompt("Please enter number 1: ")
+        num2 = prompt("Please enter number 2: ")
+
+        //Add them together then announce
+        var sum = parseInt(num1) + parseInt(num2)
+        alert("The sum is: " + sum)
+
+        //Return the value
+        return sum
+        }
+
+        //Calls function
+        var theSum = runCalc()
+    </script>
+
+    <h2>Decision Logic</h2>
+
+    <script>
+        //Variable
+        var age = 7
+        var license = true
+
+        //If values are the same do the following
+        if(age == 5)
+        {
+            console.log("age is 5")
+        }
+        //Play if opposite of if is true
+        else 
+        {
+            console.log("age is not 5")
+        }
+
+        //check multiple conditoins first must be if everything else is if else
+        if(age == 6)
+        {
+            console.log("age is 6")
+        }
+        else if (age == 12 || age == 13)
+        //|| is or
+        {
+            console.log("age is 12 or 13")
+        }
+        //&& is and
+        else if (age == 18 && age == 20)
+        {
+            console.log("age is 18 and 20")
+        }
+    </script>
+
+    <h2>Loops</h2>
+    <script>
+        //Loops run code repeatedly
+        //2 types of loops: for loop and while loop
+
+        for (var i = 0; i < 5; i++)
+        {
+            console.log("for loop i = " + i)
+        }
+
+        var count = 0
+        while (count < 5)
+        {
+            count += 2
+
+            console.log("count count " + count)
+        }
+        
+        //Good for user input
+        do
+        {
+            count -6
+
+            console.log("womp womp" + count)
+        }
+        while(count < 5);
+    </script>
+
+<a href="./index.html">Return</a>
+</body>
+</html>

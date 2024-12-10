@@ -1,0 +1,22 @@
+body
+{
+    background-color: bisque;
+}
+h1
+{
+    color:aquamarine
+}
+#intro
+{
+    font-size: 1.0em;
+    color:aqua;
+}
+.colorful
+{
+    color: red;
+}
+p
+{
+    text-align: center;
+    color:yellow;
+}

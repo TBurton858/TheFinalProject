@@ -1,0 +1,54 @@
+<!--Thomas Burton, 9/17/24-->
+<!--DOCTYPE this is the first tag on the page and it tells the browser that this is an HTML5 page-->
+<!DOCTYPE html>
+<!--the html tag goes next-->
+<html lang="en">
+<head>
+    <!--the head section has info for the browser and search engine-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--add a link to our css file-->
+    <link rel="styleSheet" href="main.css">
+
+    <script src = "code.js"></script>
+</head>
+<body>
+    <!--the body section holds the text and images that we want to show the user-->
+    <h1>Welcome to my CSC102 Home Page</h1>
+    <!--p is paragraph tag; has spacing around it by-->
+    <p>
+        <input type = "button" id = "startButton" value = "Start Moving Image" onclick = "moveImage();">
+        <input type = "button" id = "stopButton" value = "Stop Moving Image" 
+        onclick= "stopImage();" disabled = "true">
+        <!--img is the image tag-->
+        <img id = "memeImage" src = "meme.jpg">
+    </p>
+    <nav>
+        <ul>
+        <!--This a link to the boards page.(9/19/24)-->
+        <li><a href="./boards.html">Boards</a></li>
+        <li><a href="./arraysHTML.html">Arrays</a></li>
+        <li><a href="./code12.html">Week 12</a></li>
+        <li><a href="./firstCSS_htmlpart.html">First CSS</a></li>
+        <li><a href="./game.html">Game</a></li>
+        <li><a href="./myProject.html">First Script</a></li>
+        <li><a href="./palW9.html">I Have No Idea</a></li>
+        <li><a href="./soundHTML.html">Sound</a></li>
+        <li><a href="./string.html">Security</a></li>
+        <li><a href="./strings.html">Log In</a></li>
+        <li><a href="./tableExample.html">Tables</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <!--Small text (9/19/24)-->
+    <footer>Thomas Burton</footer>
+    <br>
+    <footer>University of Advancing Technology</footer>
+    <br>
+    <footer>2625 W Baseline Rd</footer>
+    <br>
+    <footer>Tempe, AZ 85283</footer>
+</body>
+</html>

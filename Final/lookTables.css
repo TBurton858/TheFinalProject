@@ -1,0 +1,27 @@
+body 
+{
+    background-color: grey;
+}
+
+table
+{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+th
+{
+    background-color: aqua;
+}
+
+td
+{
+    background-color: green;
+}
